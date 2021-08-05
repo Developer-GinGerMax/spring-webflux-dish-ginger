@@ -1,4 +1,4 @@
-package net.ginger.app.UserService;
+package net.zerotodev.api.UserService;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

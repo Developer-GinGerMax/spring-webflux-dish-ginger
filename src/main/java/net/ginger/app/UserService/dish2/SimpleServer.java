@@ -1,4 +1,4 @@
-package net.ginger.app.UserService.dish;
+package net.ginger.app.UserService.dish2;
 import reactor.core.publisher.Flux;
 import lombok.RequiredArgsConstructor;
 

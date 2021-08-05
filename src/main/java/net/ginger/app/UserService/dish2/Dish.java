@@ -1,5 +1,4 @@
-package net.ginger.app.UserService.dish;
-import java.util.Objects;
+package net.ginger.app.UserService.dish2;
 import lombok.Data;
 @Data
 
@@ -16,5 +15,9 @@ class Dish {
         Dish deliveredDish = new Dish(dish.description);
         deliveredDish.delivered = true;
         return deliveredDish;
+    }
+    @Override
+    public String toString(){
+        return delivered ? description +"먹는다" : description + "기다린다";
     }
 }
